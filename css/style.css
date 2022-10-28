@@ -1,0 +1,21 @@
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color: #0d6efd;
+}
+
+.backgroundImg1{
+    background: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.678)), url(/img/slide-1.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+.backgroundImg2{
+    background: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.678)), url(/img/slide-2.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+.backgroundImg3{
+    background: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.678)), url(/img/slide-3.jpg);
+    background-size: cover;
+    height: 80vh;
+}
