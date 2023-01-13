@@ -9,12 +9,17 @@ body{
 }
 
 
+
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
     color: #0d6efd;
 }
 
 .navbar-brand{
     font-size: 30px;
+}
+#hero p{
+  width: 100%;
+  
 }
 
 .backgroundImg1{
@@ -209,6 +214,9 @@ body{
   justify-content: space-between;
   gap: 20px;
 }
+#counts{
+  padding-bottom: 30px;
+}
 
 .counter-countainer{
   display: flex;
@@ -216,15 +224,16 @@ body{
   align-items: center;
   justify-content: space-between;
   text-align: center;
-  margin: auto;
-   gap: 60px; 
+  margin: 50px;
+   gap: 50px; 
+   padding-bottom: 30px;
   
  
   
 }
 .incre{
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 30px;
+  font-weight: 700;
 }
 /* .counter-countainer{
   display: flex;
@@ -235,25 +244,35 @@ body{
 
 } */
 .counter{
-  text-align: center;
-  display: block;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: auto;
-   height: 30vh; 
-  width: 30vw; 
-  box-shadow: 1px 0 16px rgba(0, 0, 0, 0.1);
-  padding: 40px;
-  background: #fff;
-  border-radius: 20px;
+  box-shadow: 0px 0 16px rgb(0 0 0 / 10%);
+    padding: 30px;
+    background: #fff;
+    margin: auto;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    width: 100%;
+
+}
   
   
 
-}
+
 .counter span{
-  font-size: 25px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 800;
   color: #1c5c93;
+}
+
+@media screen and (max-width: 450px) {
+  .incre{
+    font-size: 15px;
+    font-weight: 200;
+  }
+
+  .counter span{
+    font-size: 15px;
+    font-weight: 300px;
+  }
 }
 /* .counts {
   padding-bottom: 30px;
