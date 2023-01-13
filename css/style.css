@@ -797,6 +797,14 @@ body{
   color: #9eccf4;
 }
   
+.credits span{
+  font-size: 15px;
+  margin: auto;
+  padding: auto;
+  color: aqua;
+  text-align: center;
+  
+}
 
 
   
